@@ -1,0 +1,61 @@
+         body {
+            background-color: #f2f2f4;
+
+        }
+
+        p {
+            font-size: 18px;
+            font-family: "poppins" "sans-serif";
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flex-col {
+            flex-direction: column;
+        }
+
+        .justify-center {
+            justify-content: center;
+        }
+
+        .gap-1 {
+            gap: 4px;
+        }
+
+        .gap-2 {
+            gap: 8px;
+        }
+
+        .gap-3 {
+            gap: 12px;
+        }
+
+        .gap-4 {
+            gap: 16px;
+        }
+
+        img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border-width: 200px;
+            border: 7px solid #fff;
+        }  
+
+    #botao-voltar {
+       border: none;
+       background: none;
+       margin: 10px;
+       height: 36px;
+       width: 24px;
+    }
+        
+    #botao-avancar {
+       border: none;
+       background: none;
+       margin: 10px;
+       height: 36px;
+       width: 24px;
+    }
