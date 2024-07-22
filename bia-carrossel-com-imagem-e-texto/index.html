@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+     href="estilos.css">
+    <script src="logica.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>atividade4-carrossel com imagem e texto</title>
+</head>
+<body class="flex gap-4">
+    <div class="flex flex-col justify-center">
+        <button type="button" onclick="voltarCarrossel()">
+            <img id="botao-voltar" src="https://sudotec.org.br/imgs/btn-left2.png" alt="botao-voltar">
+        </button>
+    </div>
+    <div class="flex gap-2">
+        <img id="imagem-carrossel" src="https://sudotec.org.br/upload/aprendercrescerdepoimentos/dest_2.jpg" alt="imagem-carrossel">
+        <div>
+            <p id="carrossel-depoimento">
+                “O projeto Aprender e Crescer foi o ponto de 'start' na minha vida na área de tecnologia, 
+                    após passar pelo processo seletivo comecei o curso com praticamente nenhum conhecimento sobre 
+                    desenvolvimento de software, é um curso muito interessante para quem deseja aprender indiferente
+                    de possuir ou não conhecimento na área, auxiliou muito na faculdade (Bacharelado em Engenharia 
+                    de Software UTFPR-DV), e graças a essa experiência, muitas oportunidades surgiram, fazem dois 
+                    anos que trabalho profissionalmente com Software, recomendo o curso, tenham interesse e 
+                    dediquem, vale a pena. (Atualmente Trabalhando na Empresa Leigado)”
+            </p>
+            <b id="descricao-carrosel">
+                "- ALISSON STOPASSOLE - AC-2015"
+            </b>
+        </div>
+    </div>
+    <div class="flex flex-col justify-center">
+        <button type="button" onclick="avancarCarrossel()">
+          <img id="botao-avancar" src="https://sudotec.org.br/imgs/btn-right2.png" alt=botao-avancar>
+        </button>
+    </div>
+</body>
+</html>
