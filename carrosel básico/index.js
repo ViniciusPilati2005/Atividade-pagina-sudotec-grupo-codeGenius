@@ -25,8 +25,8 @@ function passaImagem() {
     indexCarrossel = 0;
   }
   imgCarrosel.setAttribute(`src`, imgs[indexCarrossel]);
+}
 
   setInterval(() => {
     passaImagem();
   }, 3000);
-}
