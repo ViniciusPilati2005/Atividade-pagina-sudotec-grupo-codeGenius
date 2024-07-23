@@ -4,6 +4,10 @@ body {
 
 button {
     position: absolute;
+    border-radius: 16px;
+    background-color: gray;
+    border: 1px solid black;
+    
 }
 
 .esquerda {
