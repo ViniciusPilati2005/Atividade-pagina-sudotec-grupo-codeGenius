@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGORA VC SABE MAIS</title>
+    <style>
+        body {
+            background-color: #f3f3f3;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 3em;
+            font-weight: 200;
+            color: #222;
+            margin-bottom: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .top {
+            width: 50px;
+            height: auto;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 750px;
+            border-radius: 10px;
+            filter: brightness(95%);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-button {
+            background-color: white ;
+            border-color: gold;
+            font-size: 20px;
+            color: gold;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: xx-large;
+            margin: 10px 10px;
+            cursor: pointer;
+            border-radius: 20px;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+        }
+
+        .back-button:hover {
+            background-color: #575757;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <img class="top" src="https://images.emojiterra.com/google/android-pie/512px/1f60e.png" alt="imagem">
+        AGORA VOCÊ SABE MAIS
+    </h1>
+    <div class="image-container">
+        <img src="https://img.freepik.com/vetores-premium/rgao-do-cerebro-humano-vetor-desenhado-a-mao-doodle-linha-estilo-cartoon-personagem-logo-ilustracao-isolado-no-fundo-branco-rgao-do-cerebro-humano-conceito-de-logotipo-de-anatomia_92289-3239.jpg" alt="imagem">
+    </div>
+    <button class="back-button" onclick="history.back()">Voltar Sabendo Mais</button>
+</body>
+</html>
